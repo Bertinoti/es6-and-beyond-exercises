@@ -24,7 +24,11 @@
  */
 
 // Finish the code of the function
-function exercise05() {}
+function exercise05([a , b = "PEPE", c  , d , e]) {
+    // let [a, b, c, d, e = "PEPE"];
+    return [a, b, c, d, e].findIndex((element) => element ==  "Tuesday" || element ==  "PEPE" );
+
+}
 
 // Don’t change the code bellow this line
 import setup05Exercise from "./05-exercise-setup";
